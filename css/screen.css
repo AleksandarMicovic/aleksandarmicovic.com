@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'DroidSerifItalic';
+    src: local('Droid Serif Italic'),
+         local('DroidSerif-Italic'),
+         url('../fonts/DroidSerif-Italic-webfont.woff') format('woff');
+    src: url('../fonts/DroidSerif-Italic-webfont.eot') format('eot'),
+         url('../fonts/DroidSerif-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSerif-Italic-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoCondensedBold';
+    src: local('Roboto Condensed Bold'),
+         local('RobotoCondensed-Bold'),
+         url('../fonts/Roboto-BoldCondensed-webfont.woff') format('woff');
+    src: url('../fonts/Roboto-BoldCondensed-webfont.eot') format('eot'),
+         url('../fonts/Roboto-BoldCondensed-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-BoldCondensed-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSerif';
+    src: local('PT Serif'),
+         local('PT-Serif'),
+         url('../fonts/PT-Serif-webfont.woff') format('woff');
+    src: url('../fonts/PT-Serif-webfont.eot') format('eot'),
+         url('../fonts/PT-Serif-webfont.ttf') format('truetype'),
+         url('../fonts/PT-Serif-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: table;
+    background-color: #FFFFDD;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#container > div {
+    display: inline-block;
+}
+
+h1 {
+    padding: 0;
+    margin: 0 0 0.15em 0;
+    font-family: RobotoCondensedBold;
+    font-size: 2.5em;
+    color: #444444;
+}
+
+h2 {
+    margin: 0 0 2em 0;
+    padding: 0;
+    font-size: 1.25em;
+    font-family: DroidSerifItalic;
+    color: #444444;
+}
+
+p {
+    font-family: PTSerif;
+    color: #444444;
+    font-size: 1.1em;
+}
+
+p > a {
+    color: #444444;
+    text-decoration: none;
+}
+
+p > a:hover {
+    color: #33CCFF;
+}
+
+img {
+    border-radius: 50%;
+    width: 45%;
+    padding: 0;
+}
