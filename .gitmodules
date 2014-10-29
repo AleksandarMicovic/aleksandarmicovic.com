@@ -1,0 +1,3 @@
+[submodule "sandbox-canjs"]
+	path = demos/sandbox-canjs
+	url = http://github.com/AleksandarMicovic/sandbox-canjs.git
